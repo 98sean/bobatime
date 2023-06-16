@@ -28,11 +28,11 @@ function Sidebar() {
         <SidebarOption Icon={MoreHorizIcon} text='More' />
 
         {/* Button -> Tweet 사이드바 밑에 있는거 */}
-        <Button variant='outlined' className='sidebar_tweet' fullWidth>
-          Post
-        </Button>
+      <Button variant="outlined" className="sidebar__tweet" fullWidth>
+        Tweet
+      </Button>
     </div>
-  )
+  );
 }
 
 export default Sidebar;

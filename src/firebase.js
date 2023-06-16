@@ -1,15 +1,16 @@
-import firebase from "./firebase";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAbBZOT15ZMYqCsAnB9TZUIIcTt1-Ekkgk",
-  authDomain: "bobatime-final.firebaseapp.com",
-  // databaseURL: "https://bobatime-final.firebaseio.com",
-  projectId: "bobatime-final",
-  storageBucket: "bobatime-final.appspot.com",
-  messagingSenderId: "458190715774",
-  appId: "1:458190715774:web:52b42d1135811dfa70912f",
-  measurementId: "G-VHWDBWPZPB"
+  apiKey: "AIzaSyAHPUC8QPvlsq2E3OT86wC2tpPZ3PXtV2c",
+  authDomain: "bobatime-95c76.firebaseapp.com",
+  projectId: "bobatime-95c76",
+  storageBucket: "bobatime-95c76.appspot.com",
+  messagingSenderId: "628416000512",
+  appId: "1:628416000512:web:010493cecba51277979ee5",
+  measurementId: "G-3HECJQTCGB"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
