@@ -1,0 +1,45 @@
+[debug] [2023-06-14T02:41:39.351Z] ----------------------------------------------------------------------
+[debug] [2023-06-14T02:41:39.354Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RBW\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-14T02:41:39.354Z] CLI Version:   12.3.1
+[debug] [2023-06-14T02:41:39.355Z] Platform:      win32
+[debug] [2023-06-14T02:41:39.355Z] Node Version:  v18.15.0
+[debug] [2023-06-14T02:41:39.357Z] Time:          Tue Jun 13 2023 19:41:39 GMT-0700 (미 태평양 하계 표준시)
+[debug] [2023-06-14T02:41:39.357Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-14T02:41:39.362Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-06-14T02:41:39.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-14T02:41:39.419Z] > authorizing via signed-in user (rubywoo@likelion.org)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\CLONE PRACTICE ORIGINAL
+
+[debug] [2023-06-14T02:41:39.572Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-06-14T02:41:39.572Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-06-14T03:24:44.707Z] ----------------------------------------------------------------------
+[debug] [2023-06-14T03:24:44.709Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RBW\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-14T03:24:44.709Z] CLI Version:   12.3.1
+[debug] [2023-06-14T03:24:44.710Z] Platform:      win32
+[debug] [2023-06-14T03:24:44.710Z] Node Version:  v18.15.0
+[debug] [2023-06-14T03:24:44.712Z] Time:          Tue Jun 13 2023 20:24:44 GMT-0700 (미 태평양 하계 표준시)
+[debug] [2023-06-14T03:24:44.713Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-14T03:24:44.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-14T03:24:44.723Z] > authorizing via signed-in user (rubywoo@likelion.org)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\CLONE PRACTICE ORIGINAL
+
