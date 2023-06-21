@@ -12,13 +12,13 @@ function Widgets() {
     <div className="widgets">
       <div className="widgets__input">
         <SearchIcon className="widgets__searchIcon" />
-        <input placeholder="Search Twitter" type="text" />
+        <input placeholder="Search other's posts" type="text" />
       </div>
 
       <div className="widgets__widgetContainer">
-        <h2>What's happening</h2>
-
-        <TwitterTweetEmbed tweetId={"858551177860055040"} />
+        <h2>BOBA GPA RANKING</h2>
+        <h3>Coming soon...</h3>
+        {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
 
         <TwitterTimelineEmbed
           sourceType="profile"
@@ -29,8 +29,15 @@ function Widgets() {
         <TwitterShareButton
           url={"https://facebook.com/cleverprogrammer"}
           options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
-        />
+        /> */}
       </div>
+
+      <div className="widgets__widgetContainer">
+        <h2>POPULAR GROUP</h2>
+        <h3>Coming soon...</h3>
+      </div>
+
+
     </div>
   );
 }
