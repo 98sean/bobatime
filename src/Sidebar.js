@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
         {/* Twitter icon 사이트 위에 로고 */}
-        <TwitterIcon className='sidebar_twitterIcon' />
+        {/* <TwitterIcon className='sidebar_twitterIcon' /> */}
 
         <SidebarOption active Icon={HomeIcon} text='Home' />
         <SidebarOption Icon={SearchIcon} text='Explore' />
