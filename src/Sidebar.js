@@ -29,7 +29,7 @@ function Sidebar() {
 
         {/* Button -> Tweet 사이드바 밑에 있는거 */}
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Tweet
+        Post
       </Button>
     </div>
   );

@@ -2,6 +2,13 @@
     flex: 0.3;
   }
   
+  .widgets__account {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+  }
+
   .widgets__input {
     display: flex;
     align-items: center;
