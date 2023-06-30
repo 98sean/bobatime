@@ -1,6 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
-import TwitterIcon from '@mui/icons-material/Twitter';
+/*import TwitterIcon from './images/logo.png';*/
+import Logo from './images/logo.png'
 import SidebarOption from './SidebarOption';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
@@ -16,8 +17,8 @@ function Sidebar() {
   return (
     <div className="sidebar">
         {/* Twitter icon 사이트 위에 로고 */}
-        {/* <TwitterIcon className='sidebar_twitterIcon' /> */}
-
+        {/*<TwitterIcon className='sidebar_twitterIcon' /> */}
+        <img src={Logo} className='BobaLogo' alt="" />
         <SidebarOption active Icon={HomeIcon} text='Home' />
         <SidebarOption Icon={SearchIcon} text='Explore' />
         <SidebarOption Icon={NotificationsNoneIcon} text='Notifications' />

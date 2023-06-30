@@ -23,7 +23,7 @@ function Widgets() {
       </div>
 
       <div className="widgets__widgetContainer">
-        <h2>BOBA GPA RANKING</h2>
+        <h2>BOBA GPA Ranking</h2>
         <h3>Coming soon...</h3>
         {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
 
@@ -40,7 +40,7 @@ function Widgets() {
       </div>
 
       <div className="widgets__widgetContainer">
-        <h2>POPULAR GROUP</h2>
+        <h2>Popular Group</h2>
         <h3>Coming soon...</h3>
       </div>
 
