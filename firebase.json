@@ -14,7 +14,7 @@
     ],
      "headers": [
       {
-        "source": "/images/**",
+        "source": "/images/logo",
         "headers": [
           {
             "key": "Cache-Control",
