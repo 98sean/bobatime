@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 /*import TwitterIcon from './images/logo.png';*/
-import Logo from './images/logo.png'
+import Logo from './logo.png'
 import SidebarOption from './SidebarOption';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
