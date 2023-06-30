@@ -6,10 +6,17 @@ import {
   TwitterTweetEmbed,
 } from "react-twitter-embed";
 import SearchIcon from '@mui/icons-material/Search';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import CreateIcon from '@mui/icons-material/Create';
 
 function Widgets() {
   return (
     <div className="widgets">
+      <div clasName="widgets__account">
+        <AccountCircleIcon fontSize="large" />
+        <CreateIcon fontSize="large" />
+      </div>
+      
       <div className="widgets__input">
         <SearchIcon className="widgets__searchIcon" />
         <input placeholder="Search other's posts" type="text" />
