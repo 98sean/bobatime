@@ -5,9 +5,10 @@
   }
   
   .sidebarOption:hover {
-    background-color: #e8f5fe;
+    background-color:  	#FFF7DA;
     border-radius: 30px;
-    color: #FFC700;
+    /*color: #ffb300;*/
+    color:  #ffb300;
     transition: color 100ms ease-out;
   }
   
@@ -22,5 +23,5 @@
   }
   
   .sidebarOption--active {
-    color: #FFC700;
+    color: #D6A700;
   }
