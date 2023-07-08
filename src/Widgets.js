@@ -14,6 +14,8 @@ function Widgets() {
     <div className="widgets">
       <div clasName="widgets__account">
         <AccountCircleIcon fontSize="large" />
+        <h3>LogIn</h3>
+        <h3>SignUp</h3>
         <CreateIcon fontSize="large" />
       </div>
       
