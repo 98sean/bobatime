@@ -8,14 +8,29 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import CreateIcon from '@mui/icons-material/Create';
+//import { useRouter } from 'next/router'
 
 function Widgets() {
+//  const router = useRouter()
+//
+//  async function movelogInPage() {
+//    router.push(`/loginPage/LogIn}`)
+//  }
   return (
     <div className="widgets">
-      <div clasName="widgets__account">
+      <div className="widgets__account">
         <AccountCircleIcon fontSize="large" />
-        <h3>LogIn</h3>
-        <h3>SignUp</h3>
+        <div className="widgets__loginContainer">
+        <button>
+            <h3>LogIn</h3>
+        </button>
+        </div>
+        <div className="widgets__loginContainer">
+        <button>
+            <h3>SignUp</h3>
+        </button>
+        </div>
+
         <CreateIcon fontSize="large" />
       </div>
       
